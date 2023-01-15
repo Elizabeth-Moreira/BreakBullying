@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #d9d9d9;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+  background-color: white;
+}
+.cabecalho {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff4747;
+}
+.logotipo {
+  color: white;
+  font-size: xx-large;
+  font-weight: 900;
+  text-align: center;
+}
+
+.menuCabecalho {
+  display: flex;
+  list-style: none;
+}
+
+.menuCabecalho li {
+  padding: 12px 20px;
+}
+.menuCabecalho a {
+  text-decoration: none;
+  color: white;
+}
+
+.menuCabecalho li:hover {
+  background-color: #bf1717;
+}
